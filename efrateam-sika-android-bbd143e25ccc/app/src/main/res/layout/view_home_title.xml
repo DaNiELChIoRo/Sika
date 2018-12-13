@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_bar"
+    android:orientation="vertical">
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_section"
+        style="@style/CustomTextView"
+        android:text="title section"
+        android:textColor="@color/gray_bar"
+        android:gravity="center"
+        android:minHeight="?actionBarSize"
+        android:textSize="@dimen/text_big" />
+</LinearLayout>

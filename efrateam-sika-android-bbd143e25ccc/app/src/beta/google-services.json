@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "792057519862",
+    "firebase_url": "https://sika-app-1509730893592.firebaseio.com",
+    "project_id": "sika-app-1509730893592",
+    "storage_bucket": "sika-app-1509730893592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792057519862:android:ea291a7025486b96",
+        "android_client_info": {
+          "package_name": "com.muuyal.sika.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792057519862-t93352r515ko6ermkfds97rhu3n25v4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlSUKFPXh9en0AJ9qJS1SZwnW3_7yg5FU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

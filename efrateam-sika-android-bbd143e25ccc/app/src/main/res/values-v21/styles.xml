@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="android:backgroundSplit">@color/colorPrimary</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:timePickerDialogTheme">@style/PickerDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/PickerDialogCustom</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+    </style>
+
+    <style name="PickerDialogCustom" parent="AlertDialogCustom">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:positiveButtonText">@color/colorAccent</item>
+        <item name="android:negativeButtonText">@color/colorAccent</item>
+        <item name="android:datePickerStyle">@style/PickerDialogCustom</item>
+    </style>
+</resources>

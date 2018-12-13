@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainBackground">
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_empty_states"
+        style="@style/CustomTextView"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/label_empty_states"
+        android:visibility="gone" />
+
+    <com.muuyal.sika.customs.CustomTextView
+        style="@style/CustomTextView"
+        android:padding="10dp"
+        android:text="@string/label_select_state"
+        android:textColor="@color/black_bar"
+        android:textSize="@dimen/text_big" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_states"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

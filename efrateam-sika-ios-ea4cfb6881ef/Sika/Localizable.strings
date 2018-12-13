@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Sika
+
+  Created by Aldo Antonio Martinez Avalos on 8/29/17.
+  Copyright © 2017 Sika. All rights reserved.
+*/
+
+"ALERT_TITLE" = "Alerta";
+"ALERT_SEARCH_EMPTY_RESULT" = "No se encontraron resultados de la búsqueda";
+"CANCEL" = "Cancelar";

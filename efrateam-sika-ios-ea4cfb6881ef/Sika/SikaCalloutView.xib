@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SikaCalloutView" customModule="Sika" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWq-kf-wP9">
+                    <rect key="frame" x="11.5" y="15" width="257" height="0.0"/>
+                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                    <color key="textColor" red="0.80915498733520508" green="0.16184073686599731" blue="0.19615276157855988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAa-Sg-mMd">
+                    <rect key="frame" x="11.5" y="25.5" width="257" height="0.0"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" red="0.39227405190467834" green="0.39615342020988464" blue="0.39615738391876221" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdO-HF-iTK">
+                    <rect key="frame" x="11.5" y="113.5" width="257" height="36"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.73333333333333328" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="oMV-bw-8hG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="storeButtonTouchUpInside:" destination="iN0-l3-epB" eventType="touchUpInside" id="TqA-Nt-50y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PE8-cY-eOj">
+                    <rect key="frame" x="11.5" y="160" width="257" height="35"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.73333333329999995" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="5cf-Da-gZv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="indicationsButtonTouchUpInside:" destination="iN0-l3-epB" eventType="touchUpInside" id="YoM-TW-1fD"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vWq-kf-wP9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="0hd-dl-Fdy"/>
+                <constraint firstItem="vWq-kf-wP9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="35y-FY-5qK"/>
+                <constraint firstItem="gAa-Sg-mMd" firstAttribute="top" secondItem="vWq-kf-wP9" secondAttribute="bottom" constant="10" id="3LH-Fp-vbz"/>
+                <constraint firstItem="gAa-Sg-mMd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="YJd-n3-cDE"/>
+                <constraint firstAttribute="trailing" secondItem="vWq-kf-wP9" secondAttribute="trailing" constant="12" id="beQ-6k-beK"/>
+                <constraint firstAttribute="trailing" secondItem="PE8-cY-eOj" secondAttribute="trailing" constant="12" id="dYi-cO-AgU"/>
+                <constraint firstItem="PE8-cY-eOj" firstAttribute="top" secondItem="cdO-HF-iTK" secondAttribute="bottom" constant="10" id="nFR-SE-79M"/>
+                <constraint firstAttribute="trailing" secondItem="gAa-Sg-mMd" secondAttribute="trailing" constant="12" id="rEo-UB-aRD"/>
+                <constraint firstItem="cdO-HF-iTK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="rMl-V8-oSO"/>
+                <constraint firstAttribute="bottom" secondItem="PE8-cY-eOj" secondAttribute="bottom" constant="15" id="vVe-Ax-Ypc"/>
+                <constraint firstAttribute="trailing" secondItem="cdO-HF-iTK" secondAttribute="trailing" constant="12" id="xkR-i5-pFz"/>
+                <constraint firstItem="PE8-cY-eOj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="z4z-Qa-sg8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addressLabel" destination="gAa-Sg-mMd" id="NMb-ls-x6d"/>
+                <outlet property="indicationsButton" destination="PE8-cY-eOj" id="Ueh-7N-8q2"/>
+                <outlet property="storeButton" destination="cdO-HF-iTK" id="yDv-oT-sUi"/>
+                <outlet property="titleLabel" destination="vWq-kf-wP9" id="AaL-gg-J5v"/>
+            </connections>
+            <point key="canvasLocation" x="-13" y="-127.5"/>
+        </view>
+    </objects>
+</document>

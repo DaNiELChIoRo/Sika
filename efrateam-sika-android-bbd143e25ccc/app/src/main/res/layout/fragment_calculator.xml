@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainBackground"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.muuyal.sika.customs.CustomTextView
+                style="@style/CustomTextView"
+                android:layout_width="wrap_content"
+                android:drawablePadding="5dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_calc"
+                android:gravity="center"
+                android:text="@string/label_performance" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.muuyal.sika.customs.CustomTextView
+                    style="@style/CustomTextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/label_width" />
+
+                <EditText
+                    android:id="@+id/et_width"
+                    style="@style/CustomEditText.Number"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.muuyal.sika.customs.CustomTextView
+                    style="@style/CustomTextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/label_height" />
+
+                <EditText
+                    android:id="@+id/et_height"
+                    style="@style/CustomEditText.Number"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.muuyal.sika.customs.CustomTextView
+                    style="@style/CustomTextView"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/label_high" />
+
+                <EditText
+                    android:id="@+id/et_hight"
+                    style="@style/CustomEditText.Number"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/gray_500" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.muuyal.sika.customs.CustomTextView
+                        style="@style/CustomTextView"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="0dp"
+                        android:text="@string/label_area_wall" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal">
+
+                        <com.muuyal.sika.customs.CustomTextView
+                            android:id="@+id/tv_area_wall"
+                            style="@style/CustomTextView.Et"
+                            android:layout_weight="1"
+                            android:gravity="right|center"
+                            android:text="@string/label_init_value" />
+
+                        <com.muuyal.sika.customs.CustomTextView
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="-8dp"
+                            android:text="@string/label_m2"
+                            android:textSize="@dimen/text_medium" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.muuyal.sika.customs.CustomTextView
+                        style="@style/CustomTextView"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="0dp"
+                        android:text="@string/label_area_floor" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal">
+
+                        <com.muuyal.sika.customs.CustomTextView
+                            android:id="@+id/tv_area_floor"
+                            style="@style/CustomTextView.Et"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:text="@string/label_init_value" />
+
+                        <com.muuyal.sika.customs.CustomTextView
+                            style="@style/CustomTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="-8dp"
+                            android:text="@string/label_m2"
+                            android:textSize="@dimen/text_medium" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.muuyal.sika.customs.CustomTextView
+                style="@style/CustomTextView"
+                android:layout_marginTop="10dp"
+                android:gravity="bottom|center_horizontal"
+                android:padding="0dp"
+                android:text="@string/label_area_total" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <com.muuyal.sika.customs.CustomTextView
+                    android:id="@+id/tv_area_total"
+                    style="@style/CustomTextView.Et"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/label_init_value" />
+
+                <com.muuyal.sika.customs.CustomTextView
+                    style="@style/CustomTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-8dp"
+                    android:text="@string/label_m2"
+                    android:textSize="@dimen/text_medium" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent" />
+
+            <com.muuyal.sika.customs.CustomButton
+                android:id="@+id/btn_calculate"
+                style="@style/CustomButton.PrimaryColor"
+                android:text="@string/label_calculate" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

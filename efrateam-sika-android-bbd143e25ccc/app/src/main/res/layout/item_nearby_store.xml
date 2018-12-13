@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_item"
+    style="@style/CustomCardView">
+
+    <LinearLayout
+        style="@style/CustomCardView.Gray"
+        android:layout_margin="0dp"
+        android:background="@drawable/selector_item_cardview_white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.muuyal.sika.customs.CustomTextView
+                    android:id="@+id/tv_store_title"
+                    style="@style/CustomTextView"
+                    android:textColor="@color/red"
+                    android:gravity="left"
+                    android:text="Title" />
+
+                <com.muuyal.sika.customs.CustomTextView
+                    android:id="@+id/tv_store_desc"
+                    style="@style/CustomTextView"
+                    android:textSize="@dimen/text_small"
+                    android:gravity="left"
+                    android:text="description" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_location_red" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

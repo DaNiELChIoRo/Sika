@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Sika App</string>
+
+    <!-- TITLES -->
+    <string name="title_home">Inicio</string>
+    <string name="title_search_store">Encontrar Tienda</string>
+    <string name="title_search_products">Buscar Productos</string>
+    <string name="title_notification">Notificación</string>
+    <string name="title_error">Error</string>
+    <string name="title_error_connection">Error de conexión</string>
+    <string name="title_my_location">Mi Ubicación</string>
+    <string name="title_common_problems">Problemas comunes</string>
+    <string name="title_promotions">Promociones</string>
+    <string name="title_glossary">Glosario</string>
+
+    <!-- LABELS -->
+    <string name="label_version">Versión: %s</string>
+    <string name="label_login">Iniciar sesión</string>
+    <string name="label_common_problems">Problemas comunes</string>
+    <string name="label_my_location">Ubicarme</string>
+    <string name="label_select_state">Seleccione un estado:</string>
+    <string name="label_select_city">Selecciona Municipio/Delegación:</string>
+
+    <string name="label_empty_products">La lista de productos está vacía.</string>
+    <string name="label_empty_categories">La lista de categorias está vacía.</string>
+    <string name="label_empty_subcategories">La lista de subcategorias está vacía.</string>
+    <string name="label_empty_items">La lista de artículos está vacía.</string>
+    <string name="label_empty_stores">No se encontraron tiendas relacionadas.</string>
+    <string name="label_empty_states">La lista de estados está vacía.</string>
+    <string name="label_empty_zipcodes">La lista de municipios/delegaciones está vacía.</string>
+    <string name="label_empty_promotions">La lista de promociones está vacía.</string>
+    <string name="label_empty_glossary">El glosario está vacío.</string>
+    <string name="label_empty_width">Largo</string>
+    <string name="label_empty_height">Ancho</string>
+    <string name="label_empty_high">Alto</string>
+    <string name="label_empty_photos">No se encontraron fotos relacionadas.</string>
+    <string name="label_empty_stores_by_product">Producto agotado en las sucursales cercanas a usted.</string>
+
+    <string name="label_correct_location">Es correcta mi ubicación</string>
+    <string name="label_see_near_stores">Ver tiendas cercanas</string>
+    <string name="label_nearest_store">Sucursal más cercana</string>
+    <string name="label_uses">Usos</string>
+    <string name="label_performance">Calcula el Rendimiento</string>
+    <string name="label_found_nearest_store">Ver sucursales con este producto</string>
+    <string name="label_related_products">Artículos relacionados</string>
+    <string name="label_see_details">Ver detalles</string>
+    <string name="label_how_to_get">¿Cómo llegar?</string>
+    <string name="label_what_product_needed">¿QUÉ PRODUCTO NECESITO?</string>
+    <string name="label_steps_app">PASOS DE APLICACIÓN</string>
+    <string name="label_call_to_store">Llamar a la sucursal</string>
+    <string name="label_width">Largo</string>
+    <string name="label_height">Ancho</string>
+    <string name="label_high">Alto</string>
+    <string name="label_area_wall">Área de muros</string>
+    <string name="label_area_floor">Área de pisos</string>
+    <string name="label_area_total">Área total</string>
+    <string name="label_calculate">Calcular</string>
+    <string name="label_init_value">0.0</string>
+    <string name="label_m2">m<sup><small> 2 </small></sup></string>
+    <string name="label_send_email">Envia Correo</string>
+
+    <string name="label_ok">OK</string>
+    <string name="label_yes">SI</string>
+    <string name="label_no">NO</string>
+    <string name="label_accept">ACEPTAR</string>
+    <string name="label_cancel">CANCELAR</string>
+    <string name="label_continue">Continuar</string>
+    <string name="label_cancelar_dialog">CANCELAR</string>
+    <string name="label_filtrar_dialog">FILTRAR</string>
+
+    <!-- LOAD MESSAGES -->
+    <string name="load_countries">Cargando países...</string>
+    <string name="load_states">Cargando estados...</string>
+    <string name="load_zipcodes">Cargando ciudades...</string>
+    <string name="load_stores">Cargando tiendas...</string>
+    <string name="load_taxonomy">Cargando categorias...</string>
+    <string name="load_products">Cargando productos...</string>
+    <string name="load_related_products">Cargando artículos relacionados...</string>
+    <string name="load_product_detail">Cargando detalle de producto...</string>
+    <string name="load_companies">Cargando compañías...</string>
+    <string name="load_route">Cargando rutas...</string>
+    <string name="load_suggestions">Cargando sugerencias...</string>
+    <string name="load_solutions">Cargando problemas comunes...</string>
+    <string name="load_promotions">Cargando promociones</string>
+    <string name="load_glossary">Cargando glosario...</string>
+    <string name="load_slider">Cargando datos...</string>
+
+    <!-- HINTS -->
+    <string name="hint_username">Usuario</string>
+    <string name="hint_date">DD/MM/YYYY</string>
+    <string name="hint_search_product">Buscar producto</string>
+    <string name="hint_search_products">Buscar productos...</string>
+    <string name="hint_search_categories">Buscar categorias...</string>
+    <string name="hint_search_subcategories">Buscar subcategorias...</string>
+
+    <!-- MENU LEFT -->
+    <string name="menu_login_register">Acceder o crear cuenta</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_search_store">Buscar tiendas</string>
+    <string name="menu_search_product">Buscar productos</string>
+    <string name="menu_promotions">Promociones</string>
+    <string name="menu_contact_us">Contáctanos</string>
+    <string name="menu_glossary">Glosario</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+
+    <!-- TABS -->
+    <string name="tab_my_location">Mi Ubicacion</string>
+    <string name="tab_map">Mapa</string>
+    <string name="tab_state">Estado</string>
+
+    <!-- MESSAGES-->
+    <string name="message_permission">Estimado usuario, por políticas de Android M y con el fin de brindarte un mejor servicio,
+        es necesario acceder a los siguientes permisos:\n
+        Ubicación: para encontrar las tiendas más cercanas a usted.\n
+        Realizar llamadas: para poder llamar por teléfono a una sucursal desde la app.\n
+    </string>
+    <string name="message_loading">Cargando...</string>
+    <string name="message_verify_fields">Por favor, verifique los siguientes campos:\n\n%s</string>
+    <string name="message_logout">¿Estás seguro que deseas cerrar sesión?</string>
+    <string name="message_login">Iniciando sesión...</string>
+    <string name="message_promotion">Aprovecha el 25% de descuento en Imper SIka®. Vigencia del 30 de julio al 15 de agosto o hasta agotar existencias. Sólo productos y tiendas participantes.</string>
+
+    <!-- SUCCESS -->
+
+    <!-- ERROR -->
+    <string name="error_connection">Por favor, verifique su conexión a internet...</string>
+    <string name="error_deneg_permission">Debe aceptar los permisos requeridos para que la aplicación pueda funcionar</string>
+    <string name="error_load_countries">Ocurrió un error al cargar países, por favor inténtelo más tarde.</string>
+    <string name="error_load_states">Ocurrió un error al cargar estados, por favor inténtelo más tarde.</string>
+    <string name="error_load_zipcodes">Ocurrió un error al cargar ciudades, por favor inténtelo más tarde.</string>
+    <string name="error_load_stores">Ocurrió un error al cargar tiendas, por favor inténtelo más tarde.</string>
+    <string name="error_load_taxonomy">Ocurrió un error al cargar categorias, por favor inténtelo más tarde.</string>
+    <string name="error_load_products">Ocurrió un error al cargar productos, por favor inténtelo más tarde.</string>
+    <string name="error_load_related_products">Ocurrió un error al cargar artículos relacionados, por favor inténtelo más tarde.</string>
+    <string name="error_load_product_detail">Ocurrió un error al cargar el detalle del producto, por favor inténtelo más tarde.</string>
+    <string name="error_load_companies">Ocurrió un error al cargar compañías, por favor inténtelo más tarde.</string>
+    <string name="error_load_map">Ocurrió un error al cargar el mapa. Por favor, verifique su conexión a internet.</string>
+    <string name="error_load_routes">Ocurrió un error al cargar la ruta. Por favor, verifique su conexión a internet.</string>
+    <string name="error_load_suggestions">Ocurrió un error al cargar la sugerencia. Por favor, verifique su conexión a internet.</string>
+    <string name="error_load_solutions">Ocurrió un error al cargar problemas comunes. Por favor, verifique su conexión a internet.</string>
+    <string name="error_load_promotions">Ocurrió un error al cargar promociones. Por favor, verifique su conexión a internet.</string>
+    <string name="error_load_glossary">Ocurrió un error al cargar glosario. Por favor, verifique su conexión a internet.</string>
+    <string name="error_load_slider">Ocurrió un error al cargar datos. Por favor, verifique su conexión a internet.</string>
+
+
+    <!-- OTHERS-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- ACTIONS -->
+    <string name="action_home">Ir a Inicio</string>
+    <string name="action_satellite">Satélite</string>
+    <string name="action_terrain">Terreno</string>
+    <string name="action_hybrid">Híbrido</string>
+    <string name="action_normal">Normal</string>
+    <string name="action_type_map">Tipo de Mapa</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minWidth="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_store_title"
+        style="@style/CustomTextView.Title"
+        android:gravity="left"
+        android:text="title"
+        android:textColor="@color/red" />
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_store_address"
+        style="@style/CustomTextView"
+        android:gravity="left"
+        android:text="address" />
+
+    <com.muuyal.sika.customs.CustomButton
+        android:id="@+id/btn_see_details"
+        style="@style/CustomButton.PrimaryColor"
+        android:layout_margin="5dp"
+        android:text="@string/label_see_details" />
+
+    <com.muuyal.sika.customs.CustomButton
+        android:id="@+id/btn_how_to_go"
+        style="@style/CustomButton.PrimaryColor"
+        android:layout_margin="5dp"
+        android:text="@string/label_how_to_get" />
+
+
+</LinearLayout>

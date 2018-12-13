@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- *********** PRODUCCIÓN ****************-->
+
+    <string name="url_server">https://appsika.mx</string>
+
+    <string name="api_key">AIzaSyA7oYUZ9_s_z7YjHhNxWQdWgdqOBuDfAtw</string>
+
+    <string name="api_version">v1</string>
+    <string name="meters">1000000</string>
+    <string name="email_contact">contacto@sika.com</string>
+
+</resources>

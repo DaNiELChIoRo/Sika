@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5AE46</color>
+    <color name="colorPrimaryDark">#F38400</color>
+    <color name="colorAccent">#29b6f6</color>
+    <color name="colorAccentDark">#0086c3</color>
+
+    <color name="black">#000000</color>
+    <color name="black_transparency">#D8000000</color>
+    <color name="black_bar">#333333</color>
+
+    <color name="gray">#a8a8a8</color>
+    <color name="gray_dark">#999999</color>
+    <color name="gray_bar">#F2F2F2</color>
+    <color name="gray_title">#666666</color>
+    <color name="gray_header">#E6E6E6</color>
+    <color name="gray_light_ultra">#d5d5d5</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_section">#7D7D7D</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue_800">#0277BD</color>
+    <color name="red">#D8282F</color>
+    <color name="red_dark">#9e0007</color>
+    <color name="yellow_bkg">#F9B300</color>
+    <color name="yellow_ligth">#fad190</color>
+    <color name="yellow_dot">#F1CFA1</color>
+
+    <!-- Colors title home -->
+    <color name="title_1">#666672</color>
+    <color name="title_2">#832189</color>
+    <color name="title_3">#0095D3</color>
+    <color name="title_4">#945A32</color>
+    <color name="title_5">#3C3C3B</color>
+    <color name="title_6">#90B142</color>
+
+</resources>

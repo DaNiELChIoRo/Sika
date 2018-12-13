@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainBackground"
+    android:layout_margin="10dp"
+    android:background="@color/black_transparency">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/container_current_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.muuyal.sika.customs.CustomTextView
+            android:id="@+id/tv_empty_screen"
+            style="@style/CustomTextView"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/label_empty_products"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_current_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_all_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.muuyal.sika.customs.CustomTextView
+            android:id="@+id/tv_empty_products"
+            style="@style/CustomTextView"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/label_empty_products"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_all_products"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

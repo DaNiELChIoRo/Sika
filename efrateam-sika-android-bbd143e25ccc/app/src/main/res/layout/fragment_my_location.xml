@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/fl_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <com.muuyal.sika.customs.CustomButton
+            android:id="@+id/btn_correct_location"
+            style="@style/CustomButton.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/label_correct_location"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_big" />
+    </RelativeLayout>
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_error_map"
+        style="@style/CustomTextView"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/error_load_map"
+        android:visibility="gone" />
+
+</RelativeLayout>

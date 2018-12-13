@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- *********** PRE - PRODUCCIÓN BETA****************-->
+
+    <!--<string name="url_server">http://165.227.15.196/api/</string>-->
+    <string name="url_server">http://95.85.6.187</string>
+
+</resources>

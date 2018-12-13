@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/selector_item_drawer"
+    android:orientation="vertical">
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_glossary_title"
+        style="@style/CustomTextView.Bold"
+        android:gravity="left"
+        android:padding="0dp"
+        android:text="test" />
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_glossary_descr"
+        style="@style/CustomTextView"
+        android:textSize="@dimen/text_medium"
+        android:gravity="left"
+        android:padding="0dp"
+        android:text="test" />
+</LinearLayout>

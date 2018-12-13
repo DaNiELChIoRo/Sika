@@ -1,0 +1,236 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="android:backgroundSplit">@color/colorPrimary</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">@style/MyTextAppearance</item>
+    </style>
+
+    <style name="MyTextAppearance" parent="@android:style/TextAppearance.Holo">
+        <item name="flFont">open_sans</item>
+    </style>
+
+    <style name="MainBackground">
+        <item name="android:background">@color/gray_header</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="CustomTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="flFont">open_sans</item>
+    </style>
+
+    <style name="CustomTextView.Bold" parent="CustomTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextView.Title" parent="CustomTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="CustomTextView.Title.Bold" parent="CustomTextView.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_btn_accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="flFont">open_sans</item>
+    </style>
+
+    <style name="CustomButton.PrimaryColor" parent="CustomButton">
+        <item name="android:background">@drawable/selector_btn_primary</item>
+    </style>
+
+    <style name="CustomButton.Red" parent="CustomButton">
+        <item name="android:background">@drawable/selector_btn_red</item>
+    </style>
+
+    <style name="CustomButton.White" parent="CustomButton">
+        <item name="android:background">@drawable/bkg_btn_white</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+    <style name="CustomEditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/bkg_et</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:inputType">textCapCharacters</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="CustomTextView.Et">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/bkg_et</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:inputType">textCapCharacters</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="CustomEditText.Phone" parent="CustomEditText">
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">phone</item>
+    </style>
+
+    <style name="CustomEditText.Email" parent="CustomEditText">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="CustomEditText.Date" parent="CustomEditText">
+        <item name="android:inputType">date</item>
+        <item name="android:hint">@string/hint_date</item>
+    </style>
+
+    <style name="CustomEditText.Number" parent="CustomEditText">
+        <item name="android:inputType">number</item>
+    </style>
+    
+    <style name="CustomProgressBar" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:theme">@style/AppTheme</item>
+    </style>
+
+    <style name="CustomProgressBar.Wrap" parent="CustomProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ThemeNavigationView">
+        <item name="android:listDivider">@color/gray</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppThemeTwon" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="android:backgroundSplit">@color/colorPrimary</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomSpinner" parent="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+    <style name="CustomCardView" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="CustomCardView.Gray" parent="CustomCardView">
+        <item name="cardBackgroundColor">@color/gray_200</item>
+    </style>
+
+    <style name="CustomLayoutCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bkg_cardview</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="CustomLayoutGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/bkg_gray_100</item>
+    </style>
+
+    <style name="CustomLayoutCardView.Gray" parent="CustomLayoutCardView">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="HorizontalRecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scrollbarSize">5dp</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/shape_scroll</item>
+        <item name="android:scrollbars">horizontal</item>
+    </style>
+
+    <style name="CustomCheckbox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+</resources>

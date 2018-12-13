@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainBackground">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_empty_items"
+        style="@style/CustomTextView"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/label_empty_items"
+        android:visibility="gone" />
+
+</RelativeLayout>

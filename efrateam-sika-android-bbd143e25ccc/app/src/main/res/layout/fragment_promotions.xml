@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainBackground"
+    android:orientation="vertical">
+
+    <com.muuyal.sika.customs.CustomTextView
+        android:id="@+id/tv_empty_promotions"
+        style="@style/CustomTextView"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/label_empty_promotions"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/container_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_above="@+id/viewPagerIndicator"
+            android:minHeight="250dp" />
+
+        <RelativeLayout
+            android:id="@+id/viewPagerIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/viewPagerCountDots"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
